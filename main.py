@@ -13,7 +13,7 @@ def print_hi(name):
 
 # ガター内の緑色のボタンを押すとスクリプトを実行します。
 if __name__ == '__main__':
-  my_name = input("your name? ")
+  my_name = input("Your name? ")
     print_hi(my_name)
 
 # PyCharm のヘルプは https://www.jetbrains.com/help/pycharm/ を参照してください
