@@ -1,4 +1,6 @@
 # これはサンプルの Python スクリプトです。
+from tkinter.font import names
+
 
 # ⌃R を押して実行するか、ご自身のコードに置き換えてください。
 # ⇧ を2回押す を押すと、クラス/ファイル/ツールウィンドウ/アクション/設定を検索します。
@@ -11,7 +13,7 @@ def print_hi(name):
 
 # ガター内の緑色のボタンを押すとスクリプトを実行します。
 if __name__ == '__main__':
-    a = "Momono"
-    print_hi(a)
+  my_name = input("your name? ")
+    print_hi(my_name)
 
 # PyCharm のヘルプは https://www.jetbrains.com/help/pycharm/ を参照してください
